@@ -1,0 +1,19 @@
+{
+  "name": "shopify-theme-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate to get started doing Shopify themes while ensuring the features of it are working properly by testing them with Cypress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzalo-novak/shopify-theme-boilerplate.git"
+  },
+  "author": "Gonzalo Stergo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gonzalo-novak/shopify-theme-boilerplate/issues"
+  },
+  "homepage": "https://github.com/gonzalo-novak/shopify-theme-boilerplate#readme"
+}
