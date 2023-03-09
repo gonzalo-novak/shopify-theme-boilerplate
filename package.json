@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/gonzalo-novak/shopify-theme-boilerplate#readme",
   "devDependencies": {
-    "cypress": "^12.7.0"
+    "cypress": "^12.7.0",
+    "tailwindcss": "^3.2.7"
   }
 }
