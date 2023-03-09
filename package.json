@@ -4,7 +4,7 @@
   "description": "A boilerplate to get started doing Shopify themes while ensuring the features of it are working properly by testing them with Cypress.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/gonzalo-novak/shopify-theme-boilerplate/issues"
   },
-  "homepage": "https://github.com/gonzalo-novak/shopify-theme-boilerplate#readme"
+  "homepage": "https://github.com/gonzalo-novak/shopify-theme-boilerplate#readme",
+  "devDependencies": {
+    "cypress": "^12.7.0"
+  }
 }
