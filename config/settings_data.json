@@ -1,0 +1,14 @@
+{
+  "current": {
+    "typography_actions": "inter_n7",
+    "typography_headings": "inter_n6",
+    "typography_body": "inter_n4"
+  },
+  "presets": {
+    "Royal Plum": {
+      "typography_actions": "inter_n8",
+      "typography_headings": "inter_n7",
+      "typography_body": "inter_n4"
+    }
+  }
+}

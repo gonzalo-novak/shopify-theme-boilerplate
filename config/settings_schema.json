@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Typography styles",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "This section is for setting your favorite fonts for the whole theme. You'll ensure your theme will have consistency between font types for each section you'll see next:"
+      },
+      {
+        "type": "font_picker",
+        "id": "typography_actions",
+        "label": "Actions",
+        "default": "inter_n7",
+        "info": "Used for buttons, links, and any item you want to make it actionable."
+      },
+      {
+        "type": "font_picker",
+        "id": "typography_heading",
+        "label": "Headings",
+        "default": "inter_n6",
+        "info": "Used for titles and subtitles."
+      },
+      {
+        "type": "font_picker",
+        "id": "typography_body",
+        "label": "Body",
+        "default": "inter_n4",
+        "info": "Used for texts from any page."
+      }
+    ]
+  },
+  {
+    "name": "Buttons Styles",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "You can edit the shape, font size, background color, of the buttons for the whole theme."
+      },
+      {
+        "type": "header",
+        "content": "Primary Button"
+      },
+      {
+        "type": "paragraph",
+        "content": "Used for the main actions you want your customer to perform"
+      },
+      {
+        "type": "range",
+        "id": "c_primary_button_border_radius",
+        "label": "Border radius",
+        "default": 6,
+        "step": 1,
+        "max": 100,
+        "min": 0,
+        "unit": "px"
+      },
+      {
+        "type": "header",
+        "content": "Secondary Button"
+      },
+      {
+        "type": "paragraph",
+        "content": "Used for secondary actions tha are not as relevant as the primary action"
+      },
+      {
+        "type": "range",
+        "id": "c_secondary_button_border_radius",
+        "label": "Border radius",
+        "default": 6,
+        "step": 1,
+        "max": 100,
+        "min": 0,
+        "unit": "px"
+      }
+    ]
+  }
+]
